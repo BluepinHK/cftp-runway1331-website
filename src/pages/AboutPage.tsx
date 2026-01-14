@@ -31,15 +31,16 @@ const AboutContent: React.FC = () => {
           </Typography>
         </Box>
 
-        <Box
-          sx={{
-            width: "100%",
-            height: "1px",
-            backgroundColor: "#5C5245",
-            mt: -2,
-            mx: 10,
-          }}
-        />
+        <Box sx={{ px: { xs: 6, md: 12 } }}>
+          <Box
+            sx={{
+              width: "100%",
+              height: "1px",
+              backgroundColor: "#5C5245",
+              mt: -2,
+            }}
+          />
+        </Box>
 
         <Box
           sx={{
